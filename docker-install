@@ -1,5 +1,5 @@
  sudo apt remove $(dpkg --get-selections docker.io docker-compose docker-doc podman-docker containerd runc | cut -f1)
-
+ wait
 
 # Add Docker's official GPG key:
 sudo apt update
